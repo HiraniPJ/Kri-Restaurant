@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="assets/css/style.css">
     <title>Krishna Restaurant</title>
 </head>
 <body>
@@ -21,5 +21,56 @@
             <button>Search</button>
         </div>
     </header>
+    <section class="hero">
+        <h1>Welcome to Krishna Restaurant</h1>
+        <p>Delight in the Flavors of India</p>
+        <a href="menu.html" class="cta-button">View Menu</a>
+    </section>
+    
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned restaurant dedicated to bringing you the authentic flavors of India. Our culinary experts
+            craft each dish with love and care, using the finest ingredients and traditional recipes.</p>
+    </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>For reservations, please use the form below:</p>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="reservation-date">Date:</label>
+                    <input type="date" id="reservation-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="reservation-time">Time:</label>
+                    <select id="reservation-time" required>
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="party-size">Party Size:</label>
+                    <select id="party-size" required>
+                        <option value="1">1 person</option>
+                        <option value="2">2 people</option>
+                        <option value="3">3 people</option>
+                        <option value="4">4 people</option>
+                        <option value="5">5 people</option>
+                        <option value="6">6 people</option>
+                    </select>
+                </div>
+                <button type="submit">Make Reservation</button>
+            </form>
+        </section>
+    <section class="footer">
+        <ul class="social-icons">
+            <li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li>
+        </ul>
+        <p>&copy; 2023 Krishna Restaurant</p>
+    </section>
 </body>
 </html>

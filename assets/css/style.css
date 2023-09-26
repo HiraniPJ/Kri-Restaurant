@@ -40,6 +40,147 @@ nav a {
     font-weight: bold;
 }
 
+
+/* Menu Section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 0 0 calc(25% - 20px);
+    /* 4 items in a row, accounting for 20px of margin */
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 items in a row for smaller screens */
+    }
+}
+
+/* Menu Section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 0 0 calc(25% - 20px);
+    /* 4 items in a row, accounting for 20px of margin */
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 items in a row for smaller screens */
+    }
+}
+
+* Menu Section */ .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 0 0 calc(25% - 20px);
+    /* 4 items in a row, accounting for 20px of margin */
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 items in a row for smaller screens */
+    }
+}
+
 /* Page-specific Styles */
 .hero {
     background-image: url('images/restaurant.jpg');
@@ -48,6 +189,47 @@ nav a {
     padding: 100px 0;
     color: #fff;
 }
+
+
+/* Menu Section */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 0 0 calc(25% - 20px);
+    /* 4 items in a row, accounting for 20px of margin */
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 
 .cta-button {
     display: inline-block;
@@ -98,7 +280,7 @@ button[type="submit"]:hover {
 }
 
 .footer {
-    background-color: #333;
+    background-color: rgb(77, 77, 77);
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
@@ -139,5 +321,11 @@ button[type="submit"]:hover {
 
     .search-bar {
         display: none;
+    }
+
+
+    .menu-item {
+        flex: 0 0 calc(50% - 20px);
+        /* 2 items in a row for smaller screens */
     }
 }
